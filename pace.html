@@ -1,0 +1,42 @@
+<html>
+  <!--Making a Heading-->
+  <head>
+      <title> Snap Vote Now! How's the lecture pace?</title>
+      <link href="pace.css" rel="stylesheet" type="text/css" />
+  </head>
+
+<body>
+  <a href="index.html"><h3 class="log2">HOME</h3></a>
+
+   <div class="container">
+      <h1>Snap Vote Now! How's the lecture pace?</h1>
+
+          <!-- Creating Radio Buttons -->
+          <label for="slowid" class="pace">
+          <input type="radio" name="pace" id="slowid" class="pace__input">
+              <div class="pace__pace"></div>
+                  Too Slow
+          </label>
+          <label for="jrid" class="pace">
+          <input type="radio" name="pace" id="jrid" class="pace__input">
+              <div class="pace__pace"></div>
+                  Just Right
+          </label>
+          <label for="fastid" class="pace">
+          <input type="radio" name="pace" id="fastid" class="pace__input">
+              <div class="pace__pace"></div>
+                  Too Fast
+          </label>
+
+                  <!-- Submit Button -->
+                  <button id="submitBtn" class="submit-button">Submit</button>   
+  </div>
+      <script>
+          // Event listener for the Submit button
+          document.getElementById("submitBtn").addEventListener("click", function() {
+            // Redirect to wild.html when Submit is clicked
+            window.location.href = "wild2.html";  // You will go to the wild.html page
+          });
+        </script>
+  </body>
+</html>

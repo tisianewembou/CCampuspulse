@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.main{
+  width: 100%;
+  background: url(blue.png);
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+}
+
+.navbar{
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+}
+
+.icon{
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+
+.logo{
+  color: #1c8adb;
+  font-size: 60px;
+  font-family: Sans-Serif;
+  padding-left: 20px;
+  float: left;
+  padding-top: 10px;  
+}
+
+.logo_image{
+  width: 175px;
+  height: 130px;
+  background-image: url("campuspulselogo.png");  
+  margin-top: -95px;
+  margin-left: -120px;
+}
+
+.menu{
+  width: 400px;
+  float: right;
+  height: 70px;
+}
+
+ul{
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li{
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 30px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
+}
+
+ul li a:hover{
+  color: #1c8adb;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 150px;
+}
+
+.pulse_btn{
+  color: #fff;
+  background-color: #81c3ef;
+  border-color: #1c8adb;
+  width: 500px;
+  height: 400px;
+  border-radius: 20px;
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-top: 150px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+
+}
+
+.pulse_btn:hover{
+  color: #fff;
+  background-color: #1c8adb;
+}

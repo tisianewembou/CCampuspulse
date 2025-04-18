@@ -1,0 +1,127 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+h3 {
+    font-family: sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    position: relative;
+    left: 1050px;  
+    top: -90px;  
+    transition: 0.3s ease-in-out;
+}
+a {
+    text-decoration: none;  /* Removes the underline from all anchor tags */
+}
+
+h3:hover {
+    color: #1c8adb;
+}
+
+
+.main{
+  color: #fff;
+  width: 100%;
+  background: url("blue.png");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.navbar{
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+}
+
+.icon{
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+
+.logo{
+  color: #1c8adb;
+  font-size: 60px;
+  font-family: Sans-Serif;
+  padding-left: 20px;
+  float: left;
+  padding-top: 10px;  
+}
+
+.logo_image{
+  width: 175px;
+  height: 130px;
+  background-image: url("campuspulselogo.png");  
+  margin-top: -95px;
+  margin-left: -120px;
+}
+
+.surveys{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 50px;
+}
+
+.noise_btn{
+  color: #fff;
+  background-color: #81c3ef;
+  border-color: #1c8adb;
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-top: 150px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.pace_btn{
+  color: #fff;
+  background-color: #81c3ef;
+  border-color: #1c8adb;
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-top: 150px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.mood_btn{
+  color: #fff;
+  background-color: #81c3ef;
+  border-color: #1c8adb;
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-top: 150px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.noise_btn:hover{
+  color: #fff;
+  background-color: #1c8adb;
+}
+
+.pace_btn:hover{
+  color: #fff;
+  background-color: #1c8adb;
+}
+
+.mood_btn:hover{
+  color: #fff;
+  background-color: #1c8adb;
+}

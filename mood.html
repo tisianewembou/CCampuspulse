@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Mixer Ferris Wheel</title>
+    <link rel="stylesheet" href="mood.css">
+    <script src="mood.js" defer></script>
+</head>
+<body>
+
+    <!--home button-->
+    <a href="index.html"><h3 class="log2">HOME</h3></a>
+
+    <h1>🎡 Mood Mixer 🎡</h1>
+
+    <div class="mood-container">
+        <p>How are you feeling? </p>
+        <select id="mood-select">
+            <option value="Happy">Happy 😀</option>
+            <option value="Stressed">Stressed 😰 </option>
+            <option value="Tired">Tired 😴</option>
+            <option value="Excited">Bored 🥱</option>
+            <option value="Excited"> Interested 😌 </option>
+        </select>
+        <button id="submit-btn">Submit Mood</button>
+    </div>
+
+    <div class="ferris-wheel-container">
+        <div class="ferris-wheel" id="wheel">
+            <div class="cabin" style="--i:0">😀</div>
+            <div class="cabin" style="--i:1">😰</div>
+            <div class="cabin" style="--i:2">😴</div>
+            <div class="cabin" style="--i:3"> 🥱</div>
+             <div class="cabin" style="--i:4"> 😌 </div>
+        </div>
+    </div>
+
+    <button id="spin-btn">Spin the Wheel</button>
+
+    <div id="result" class="hidden">
+        <p>This weeks mood: <span id="mood-result"></span> 🎉</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1"></script>
+
+</body>
+</html>

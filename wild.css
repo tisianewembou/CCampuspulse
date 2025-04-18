@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url("blue.png"); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.container {
+  background: #fff; 
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  width: 80%;
+  max-width: 600px;
+}
+
+button {
+  background-image: linear-gradient(to right, #1c8adb, #1c8adb);
+  border-radius: 20px;
+  border: 0;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 25px;
+  font-size: 16px;
+}
+
+button:active {
+  opacity: 0.8;
+}
+
+/* WILDCARD IMAGE */
+.wildcard {
+  width: 300px; /* Adjust size */
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+/* MODAL STYLES */
+.modal {
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.3s ease-in-out;
+  pointer-events: none;
+}
+
+.modal.open {
+  opacity: 1;
+  pointer-events: auto;
+  z-index: 999;
+}
+
+.modal-inner {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  text-align: center;
+  width: 380px;
+  color: black;
+}
+
+h3 {
+  font-family: sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  position: relative;
+  left: 800px;  
+  top: -327px;     
+  transition: 0.3s ease-in-out;
+}
+a {
+  text-decoration: none;  /* Removes the underline from all anchor tags */
+}
+
+h3:hover {
+  color: #1c8adb;
+}

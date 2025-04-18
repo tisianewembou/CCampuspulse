@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Snap Vote Now! Noise Level?</title>
+  <link rel="stylesheet" href="noise.css">
+  <script src="noise.js" defer></script>
+</head>
+<body>
+
+  <a href="index.html"><h3 class="log2">HOME</h3></a>
+
+  <div class="outer-container">
+    <div class="container">
+      <h1>Snap Vote Time! Noise Level?</h1>
+
+      <div class="main">
+        <input type="range" min="0" max="100" value="50" id="slider">
+        <p id="slider-value">Medium</p> <!-- Label for noise level -->
+        <div id="selector">
+          <div class="SelectBtn"></div>
+        </div>
+
+        <!-- Submit Button -->
+        <button id="submitBtn" class="submit-button">Submit</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Event listener for the Submit button
+    document.getElementById("submitBtn").addEventListener("click", function() {
+      // Redirect to wild.html when Submit is clicked
+      window.location.href = "wild.html";  // You will go to the wild.html page
+    });
+  </script>
+</body>
+</html>
