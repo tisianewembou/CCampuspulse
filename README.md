@@ -42,6 +42,6 @@ In large university classrooms, real-time feedback often gets lost or overlooked
 University of Waterloo, Systems Design Engineering  
 Email: tmwembou@uwaterloo.ca
 
-**Sarah Mihajlovic**
-University of Waterloo, Systems Design Engineering
+**Sarah Mihajlovic**  
+University of Waterloo, Systems Design Engineering  
 Email: s2mihajl@uwaterloo.ca
